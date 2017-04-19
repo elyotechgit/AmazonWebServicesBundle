@@ -37,7 +37,7 @@
         </service>
 
         <service id="aws_as" class="AmazonAS" parent="aws_service">
-            <argument>AS</argument>
+            <argument>AutoScaling</argument>
         </service>
 
         <service id="aws_cloud_formation" class="AmazonCloudFormation" parent="aws_service">
